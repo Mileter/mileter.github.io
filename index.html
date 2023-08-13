@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Minium Mail</title>
+</head>
+
+<body>
+	<noscript><h5>Your browser does not support javascript. Please use a broser that does support javascript for a functional website.</h5></noscript>
+	
+	<h1 id="title-minor">The Minium Mail, Page updated on</h1>
+	<hr id="top">
+	<img id="banner" src="img/banner.svg" width="300" style="float: left">
+	<script>
+		function updateWindow(){
+			if(window.innerWidth < 500){
+				document.getElementById("banner").setAttribute("src", "img/empty.bmp");
+				document.getElementById("banner").setAttribute("width", "100");
+			}
+			else if(document.getElementById("banner").getAttribute("src") == "img/empty.bmp"){
+				document.getElementById("banner").setAttribute("src", "img/banner.svg");
+				document.getElementById("banner").setAttribute("width", "300");
+			}
+		}
+		
+		window.onresize = updateWindow;
+	</script>
+	
+	<center>
+  		
+  
+  	</center>
+	<script>
+		const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saterday"];
+		const today = new Date(); // current date
+		
+		let weekday = days[today.getDay()];
+		let month = months[today.getMonth()];
+		
+		document.getElementById("title-minor").innerHTML += weekday + ", " + month + " " + today.getDate() + ", " + today.getFullYear();
+		
+	</script>
+	
+	<h1>Front News</h1>
+</body>
+	
+</html>

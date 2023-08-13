@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 207">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: OldEnglishTextMT, 'Old English Text MT';
+      }
+
+      .cls-2 {
+        font-size: 22.61px;
+      }
+
+      .cls-3 {
+        font-size: 60.3px;
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="151.63" y1="-15.37" x2="148.31" y2="226.49" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe98a"/>
+      <stop offset=".35" stop-color="#e5cb66"/>
+      <stop offset=".85" stop-color="#bd9c2f"/>
+      <stop offset=".99" stop-color="#3e3b3b"/>
+      <stop offset="1" stop-color="#9f7d00"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <rect class="cls-4" width="300" height="207"/>
+  </g>
+  <g id="Layer_1" data-name="Layer 1">
+    <text class="cls-1" transform="translate(127.8 31.78) scale(1.06 1)"><tspan class="cls-2"><tspan x="0" y="0">The</tspan></tspan><tspan class="cls-3"><tspan x="-81.61" y="72.36">Minium</tspan></tspan><tspan class="cls-3"><tspan x="-42.41" y="144.73">Mail</tspan></tspan></text>
+  </g>
+</svg>

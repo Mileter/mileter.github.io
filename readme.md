@@ -1,2 +1,4 @@
-# Mileter Mail
-[The Mileter Mail](https://mileter.github.io/)
+# Mileter Portal
+
+## How to use the Mileter Portal
+Step 1, click [here](https://mileter.github.io/).

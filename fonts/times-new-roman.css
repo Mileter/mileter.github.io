@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family:'TimesNewRoman';
+	src:url("times-new-roman/times.eot");
+	src:url("times-new-roman/times.eot?#iefix"),
+		url("times-new-roman/times.woff2"),
+		url("times-new-roman/times.woff"),
+		url("times-new-roman/times.ttf");
+}
+
+body {
+	font-family: 'TimesNewRoman', Times, "serif"
+}

@@ -1,2 +1,2 @@
-# mileter.github.io
+# Mileter Mail
 https://mileter.github.io/

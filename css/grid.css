@@ -3,7 +3,7 @@
 
 .grid-major {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto;
   background-color: #FFFFFF;
   padding: 0px;
 }
@@ -11,7 +11,7 @@
   background-color: #E0E0E0;
   border: 1pt solid #000000;
   padding: 20px;
-  font-size: 24pt;
+  font-size: 11pt;
   text-align: center;
 }
 

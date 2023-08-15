@@ -20,10 +20,10 @@
 	<div class="nav-major">
 		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#funzies';">For Fun Programing</button></div>
 		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#blog';">Wait, A Blog?</button></div>
-		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#games">Web Games</button></div>
-		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#highlight';">Highlights</button></div>
-		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#doc';">Repo Documentation</button></div>
-		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#standard';">Standard Programming</button></div>
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#games" disabled>Web Games</button></div>
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#highlight';" disabled>Highlights</button></div>
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#doc';" disabled>Repo Documentation</button></div>
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#standard';" disabled>Standard Programming</button></div>
 		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#web';" >Web Development</button></div>
 	</div>
 	
@@ -40,12 +40,21 @@
 		document.getElementById("title-minor").innerHTML += weekday + ", " + month + " " + today.getDate() + ", " + today.getFullYear();
 		
 	</script>
-	
-	<h2>Front News</h2>
-	<div class="grid-major" style="font-size: 11pt;">
-			<div class="grid-minor"><a href="https://google.com/" class="grid-button">Action 1</a></div>
-			<div class="grid-minor">2</div>
-			<div class="grid-minor">3</div>
+	<div class="grid-major">
+		<center class="grid-minor" id="blog">
+			<h2>Wait, A Blog?</h2>
+			<p>Indeed, yes. There is a blog.</p>
+			<p>Actually, the blog is right <a href="blog/">here</a>.</p>
+		  <p>If you used the navigation bar to move</p>
+			<p>this far down the page, why?</p>
+		</center>
+		<center class="grid-minor" id="funzies">
+			<h2>Programing... For Fun?</h2>
+			<p>Yes, I know that some people don't like</p>
+			<p>programing for fun, but for those who do,</p>
+			<p>welcome to the Mileter Web-Portal!</p>
+			<p>Anyway, if you want the page, it is <a href="fun/">here</a>.</p>
+		</center>
 	</div>
 </body>
 	

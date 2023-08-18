@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Milter</title>
+
+<!-- CSS Fonts -->
+<link rel="stylesheet" type="text/css" href="fonts/times-new-roman.css">
+<!-- CSS Styling -->
+<link rel="stylesheet" type="text/css" href="css/grid.css">
+
+</head>
+
+<body>
+	<noscript><h5>Your browser does not support javascript. Please use a broser that does support javascript for a functional website.</h5></noscript>
+	
+	<h1 id="title-major">The Mileter Web-Portal</h1>
+	<h3 id="title-minor">Page updated on </h3>
+	
+	<div class="nav-major">
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#funzies';">For Fun Programing</button></div>
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#blog';">Wait, A Blog?</button></div>
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#games" disabled>Web Games</button></div>
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#highlight';" disabled>Highlights</button></div>
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#doc';" disabled>Repo Documentation</button></div>
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#standard';" disabled>Standard Programming</button></div>
+		<div class="nav-minor"><button style="height: 100%; width: 100%;" onclick="location.href='#web';" >Web Development</button></div>
+	</div>
+	
+	<hr id="top">
+	
+	<script>
+		const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+		const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saterday"];
+		const today = new Date(); // current date
+		
+		let weekday = days[today.getDay()];
+		let month = months[today.getMonth()];
+		
+		document.getElementById("title-minor").innerHTML += weekday + ", " + month + " " + today.getDate() + ", " + today.getFullYear();
+		
+	</script>
+	<div class="grid-major">
+		<center class="grid-minor" id="blog">
+            <h3>Changes to the blog</h3>
+            <p>Unfortunatly, the blog will be migrated to</p>
+            <p>a different source. If you want to access it,</p>
+            <p>the blog is <a href="https://artofproblemsolving.com/community/c3509817/">here</a>.</p>
+		</center>
+	</div>
+</body>
+	
+</html>
